@@ -8,7 +8,7 @@ SECRET_KEY = env(
 
 DEBUG = True
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost:8000"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost:8080"]
 
 EMAIL_BACKEND = "djcelery_email.backends.CeleryEmailBackend"
 EMAIL_HOST = env("EMAIL_HOST", default="mailhog")

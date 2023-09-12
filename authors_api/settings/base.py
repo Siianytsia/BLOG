@@ -156,7 +156,6 @@ CELERY_TASK_SEND_SENT_EVENT = True
 if USE_TZ:
     CELERY_TIMEZONE = TIME_ZONE
 
-
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False, 
